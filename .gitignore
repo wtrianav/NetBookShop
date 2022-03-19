@@ -1,0 +1,75 @@
+##################
+# fuente compilada #
+##################
+*.com
+*.clase
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.cache
+*.suo
+# Incluir dlls si están en el directorio de paquetes de NuGet
+!/paquetes/*/lib/*.dll
+!/paquetes/*/lib/*/*.dll
+# Incluir dlls si están en el directorio CommonReferences
+!*ReferenciasComunes/*.dll
+###################
+# Cosas de actualización VS #
+###################
+UpgradeLog.XML
+_UpgradeReport_Files/
+###############
+# directorios #
+###############
+compartimiento/
+objeto/
+Resultados de la prueba/
+##################
+# Registro de publicación web #
+##################
+*.Publicar.xml
+#############
+# Reafilador #
+#############
+/_ReSharper.*
+*.ReSharper.*
+############
+# Paquetes #
+############
+# es mejor desempaquetar estos archivos y confirmar la fuente sin procesar
+# git tiene sus propios métodos de compresión incorporados
+*.7z
+*.dmg
+*.gz
+*.Yo asi
+*.frasco
+*.rar
+*.alquitrán
+*.Código Postal
+#####################
+# Registros y bases de datos #
+#####################
+*.Iniciar sesión
+*.sqlite
+# archivos generados por el sistema operativo #
+#####################
+.DS_Tienda?
+ehthumbs.db
+¿Icono?
+Pulgares.db
+[Bb] en
+[Oo] bj
+[Tt]est[Rr]resultados
+*.suo
+*.usuario
+*.[Cc]dolor
+*[Rr]esafilador*
+paquetes
+NuGet.exe
+_[Ss]guiones
+*.exe
+*.dll
+*.nupkg
+*.ncrunchsolution
+*.punto[Cc]sobre
