@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ProyectosVarios\\NetBookShop\\NetBookShop.csproj": {}
+    "D:\\AllProjects\\NetBookShop\\NetBookShop.csproj": {}
   },
   "projects": {
-    "D:\\ProyectosVarios\\NetBookShop\\NetBookShop.csproj": {
+    "D:\\AllProjects\\NetBookShop\\NetBookShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ProyectosVarios\\NetBookShop\\NetBookShop.csproj",
+        "projectUniqueName": "D:\\AllProjects\\NetBookShop\\NetBookShop.csproj",
         "projectName": "NetBookShop",
-        "projectPath": "D:\\ProyectosVarios\\NetBookShop\\NetBookShop.csproj",
+        "projectPath": "D:\\AllProjects\\NetBookShop\\NetBookShop.csproj",
         "packagesPath": "C:\\Users\\wtria\\.nuget\\packages\\",
-        "outputPath": "D:\\ProyectosVarios\\NetBookShop\\obj\\",
+        "outputPath": "D:\\AllProjects\\NetBookShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wtria\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,28 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
