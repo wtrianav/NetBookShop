@@ -1,7 +1,25 @@
-@model Category
+@model IEnumerable<Category>
 
 @{
     ViewData["Title"] = "Category";
 }
 
 <h1 class="">¡Hola Mundo!</h1>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Category Name</font></font></th>
+      <th scope="col"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Display Order</font></font></th>
+    </tr>
+  </thead>
+  <tbody>
+      @foreach (var item in Model)
+      {
+        <tr class="table-dark">
+            <td width="50%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@item.Name</font></font></td>
+            <td width="30%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">@item.DisplayOrder</font></font></td>
+        </tr>
+      }
+  </tbody>
+</table>
