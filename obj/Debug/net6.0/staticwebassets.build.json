@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mApuEimiFcS7bkpu8QERGZWoVFxFbvSgM4gg2wW7Zr0=",
+  "Hash": "Y/xQFW8Z7iWo6KEUb2Ff/+M73gt7061U079aNwB8fQA=",
   "Source": "NetBookShop",
   "BasePath": "_content/NetBookShop",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\AllProjects\\NetBookShop\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\NetBookShop.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\AllProjects\\NetBookShop\\wwwroot\\css\\customTheme.css",
+      "SourceId": "NetBookShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\AllProjects\\NetBookShop\\wwwroot\\",
+      "BasePath": "_content/NetBookShop",
+      "RelativePath": "css/customTheme.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\customTheme.css"
     },
     {
       "Identity": "D:\\AllProjects\\NetBookShop\\wwwroot\\css\\site.css",
